@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -66,8 +67,7 @@ class Home extends StatelessWidget {
                             padding: const EdgeInsets.all(8.0),
                             child: Center(
                               child: CircleAvatar(
-                                backgroundImage:
-                                    AssetImage('assets/excersice.jpg'),
+                                backgroundImage: AssetImage('assets/excersice.jpg'),
                                 radius: 40.0,
                               ),
                             ),
@@ -131,8 +131,7 @@ class Home extends StatelessWidget {
                             padding: const EdgeInsets.all(8.0),
                             child: Center(
                               child: CircleAvatar(
-                                backgroundImage:
-                                    AssetImage('assets/contact.png'),
+                                backgroundImage: AssetImage('assets/contact.png'),
                                 radius: 40.0,
                               ),
                             ),
