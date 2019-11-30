@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(0, 12, 2, 2),
+        padding: const EdgeInsets.fromLTRB(0, 12, 0, 2),
         child: Padding(
           padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
           child: Column(
@@ -27,8 +27,8 @@ class Home extends StatelessWidget {
                       );
                     },
                     child: Container(
-                      width: 150,
-                      height: 150,
+                      width: 137,
+                      height: 137,
                       margin: const EdgeInsets.fromLTRB(0, 12, 2, 2),
                       decoration: BoxDecoration(
                           color: Colors.blue,
@@ -55,8 +55,8 @@ class Home extends StatelessWidget {
                   FlatButton(
                     onPressed: () {},
                     child: Container(
-                      width: 150,
-                      height: 150,
+                      width: 137,
+                      height: 137,
                       margin: const EdgeInsets.fromLTRB(15, 12, 2, 2),
                       decoration: BoxDecoration(
                           color: Colors.blue,
@@ -91,8 +91,8 @@ class Home extends StatelessWidget {
                   FlatButton(
                     onPressed: () {},
                     child: Container(
-                      width: 150,
-                      height: 150,
+                      width: 137,
+                      height: 137,
                       margin: const EdgeInsets.fromLTRB(0, 12, 2, 2),
                       decoration: BoxDecoration(
                           color: Colors.blue,
@@ -119,8 +119,8 @@ class Home extends StatelessWidget {
                   FlatButton(
                     onPressed: () {},
                     child: Container(
-                      width: 150,
-                      height: 150,
+                      width: 137,
+                      height: 137,
                       margin: const EdgeInsets.fromLTRB(15, 12, 2, 2),
                       decoration: BoxDecoration(
                           color: Colors.blue,
